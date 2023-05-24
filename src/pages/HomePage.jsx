@@ -1,8 +1,8 @@
 import Card from "../components/Card/Card";
-import Search from "../assets/search";
-import Calculator from "../assets/calculator";
-import Karma from "../assets/karma";
-import Team from "../assets/team";
+import Search from "../assets/Search";
+import Calculator from "../assets/Calculator";
+import Karma from "../assets/Karma";
+import Team from "../assets/Team";
 
 const HomePage = () => {
   return (

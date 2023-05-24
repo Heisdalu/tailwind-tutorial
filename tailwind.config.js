@@ -9,23 +9,36 @@ export default {
       lg: "976px",
       xl: "1440px",
     },
+    colors: {
+      red: "#eb5454",
+      cyan: "hsl(180, 62%, 55%)",
+      orange: "hsl(34, 97%, 64%)",
+      blue: "hsl(212, 86%, 64%)",
+      black: "#000",
+      dark_blue: "hsl(234, 12%, 34%)",
+      grayish_blue: "hsl(229, 6%, 66%)",
+      light_gray: "hsl(0, 0%, 98%)",
+      white: "#fff",
+    },
     spacing: {
-      1: "1rem",
-      rn: "1.5rem",
+      "0.5rem": "0.5rem",
+      "1rem": "1rem",
+      "1.5rem": "1.5rem",
+      "2rem": "2rem",
       2: "2rem",
       12: "5rem",
       px2: "2px",
     },
     fontSize: {
+      1: "1rem",
+      1.5: "1.5rem",
       2: "2rem",
     },
-    extend: {
-      colors: {
-        divine: {
-          300: "#00d0ff",
-          400: "#00ff3c",
-        },
-      },
+    boxShadow: {
+      "2xl": "0 0 5px 2px hsl(229, 6%, 66%)",
+    },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],

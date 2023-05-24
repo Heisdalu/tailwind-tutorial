@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .box {
+    @apply overflow-hidden bg-white border-white shadow-2xl relative;
+  }
+
+  .box::before {
+    @apply content-[''] absolute block top-[0] w-[100%] h-[5px] left-[0] rounded-[1rem];
+  }
+}

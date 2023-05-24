@@ -4,7 +4,7 @@
 
 @layer components {
   .box {
-    @apply overflow-hidden bg-white border-white shadow-2xl relative;
+    @apply overflow-hidden bg-white border-white shadow-2xl relative rounded-[10px];
   }
 
   .box::before {

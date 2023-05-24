@@ -35,7 +35,7 @@ export default {
       2: "2rem",
     },
     boxShadow: {
-      "2xl": "0 0 5px 2px hsl(229, 6%, 66%)",
+      "2xl": "-2px 10px 31px 1px hsl(229, 6%, 66%)",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],

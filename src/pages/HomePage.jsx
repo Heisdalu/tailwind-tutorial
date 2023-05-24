@@ -16,7 +16,7 @@ const HomePage = () => {
           </span>
         </h1>
         <p className="text-grayish_blue text-[1.1rem] leading-[1.8rem] font-poppins font-[400] md:text-[1.3rem md:leading-[2rem]]">
-          Our Artificial intelligence powerred tools use millions of project
+          Our Artificial intelligence powered tools use millions of project
           data points to ensurre that your project is succesful
         </p>
       </header>
@@ -51,7 +51,7 @@ const HomePage = () => {
         <div className="box before:bg-blue md:[grid-area:1/3/3/4] md:self-center ">
           <Card
             title={"Calculator"}
-            text={"Monitor activity to identify project roadblocks"}
+            text={"Uses data from pasts projects to provide better delivery estimates"}
             icon={<Calculator />}
           />
         </div>
